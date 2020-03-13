@@ -1,0 +1,10 @@
+.image{
+    height: 500px;
+    width: 400px;
+    cursor: pointer;
+}
+.designs{
+    border-style: groove;
+    background-color: black;
+    color: white;
+}

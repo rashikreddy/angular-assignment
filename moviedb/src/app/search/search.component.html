@@ -1,0 +1,14 @@
+<html>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div *ngFor="let item of movies">
+        <div class="col-lg-15 cards">
+          <img src={{item.poster_path}} class="image" alt={{item?.title}} (click)='OnClick(item.id)'>
+          <h6>{{item.title}}</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

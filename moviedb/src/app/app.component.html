@@ -1,0 +1,10 @@
+<div class="topnav">
+  <a class="active" routerLink='/popular'>Popular Movies</a>
+  <div class="search-container">
+    <form>
+      <input type="text" [(ngModel)]="search" name="search">
+      <button type="submit" (click)='OnClick()'>search</button>
+    </form>
+  </div>
+</div>
+<router-outlet></router-outlet>
